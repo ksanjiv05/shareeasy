@@ -15,17 +15,17 @@ function FilePicker({handleDocumentSelection,fileName}) {
         flex: 1,
         minHeight: 150,
         borderRadius: 10,
-
         marginVertical: 10,
         justifyContent: 'center',
         alignItems: 'center',
+      
       }}>
       <Icon
         name="file-upload"
         style={{fontSize: 60}}
         color={Colors.primary}
       />
-      <Text style={{color: Colors.primary}}>{fileName===undefined?"upload your file":fileName}</Text>
+      <Text style={{color: Colors.primary,fontFamily:"cursive",fontWeight:"700",fontSize:13}}>{fileName===undefined?"upload your file":fileName}</Text>
     </TouchableOpacity>
   );
 }

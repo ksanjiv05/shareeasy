@@ -30,6 +30,15 @@
 		571382CE7C1C4C6B92834470 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 02A8AF004B534645B38E10CF /* Octicons.ttf */; };
 		428D50A0ADC24EB7B76F41B4 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 66434A2C613A4B3B83E8D1AA /* SimpleLineIcons.ttf */; };
 		DACAC60AE1114DFEB19CEB4A /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C2071E6EC362471C8075F43B /* Zocial.ttf */; };
+		CDEDC4D4E3CB429F96FBA4AE /* RadioCanada-VariableFont_wdth,wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 900CEAD42F43448094361298 /* RadioCanada-VariableFont_wdth,wght.ttf */; };
+		4809697D22D941C9A5854A55 /* CassandraPersonalUseRegular-3BjG.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5F707F510B0B43EB9EB2A1B6 /* CassandraPersonalUseRegular-3BjG.ttf */; };
+		2D1F9B2B6FE2487E9A1F0D13 /* Monoton-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 82EE86E0DD71417EBEA0662E /* Monoton-Regular.ttf */; };
+		339118F342714E62B6958171 /* Sarpanch-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FE06B89C2B0A4F8A97F3AB24 /* Sarpanch-Black.ttf */; };
+		F2E957C7C1DC4AEB9E1B2BDE /* Sarpanch-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6CAE3D1379AE4CC4B24659DA /* Sarpanch-Bold.ttf */; };
+		B248BEB5BFF740B2BC858AA1 /* Sarpanch-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F3BADFDF8369436E988F0A56 /* Sarpanch-ExtraBold.ttf */; };
+		901D753F50A24DAC868A3028 /* Sarpanch-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5726799224F14F25AA6E6B48 /* Sarpanch-Medium.ttf */; };
+		357124D4E2404F60A16661CA /* Sarpanch-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2B675569C4834E14A762F799 /* Sarpanch-Regular.ttf */; };
+		5698984FBA96457D9C240B8C /* Sarpanch-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 02DBD75A9D6A42949242C2D6 /* Sarpanch-SemiBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +85,15 @@
 		02A8AF004B534645B38E10CF /* Octicons.ttf */ = {isa = PBXFileReference; name = "Octicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		66434A2C613A4B3B83E8D1AA /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; name = "SimpleLineIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		C2071E6EC362471C8075F43B /* Zocial.ttf */ = {isa = PBXFileReference; name = "Zocial.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		900CEAD42F43448094361298 /* RadioCanada-VariableFont_wdth,wght.ttf */ = {isa = PBXFileReference; name = "RadioCanada-VariableFont_wdth,wght.ttf"; path = "../assets/fonts/RadioCanada-VariableFont_wdth,wght.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5F707F510B0B43EB9EB2A1B6 /* CassandraPersonalUseRegular-3BjG.ttf */ = {isa = PBXFileReference; name = "CassandraPersonalUseRegular-3BjG.ttf"; path = "../assets/fonts/CassandraPersonalUseRegular-3BjG.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		82EE86E0DD71417EBEA0662E /* Monoton-Regular.ttf */ = {isa = PBXFileReference; name = "Monoton-Regular.ttf"; path = "../assets/fonts/Monoton-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FE06B89C2B0A4F8A97F3AB24 /* Sarpanch-Black.ttf */ = {isa = PBXFileReference; name = "Sarpanch-Black.ttf"; path = "../assets/fonts/Sarpanch-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6CAE3D1379AE4CC4B24659DA /* Sarpanch-Bold.ttf */ = {isa = PBXFileReference; name = "Sarpanch-Bold.ttf"; path = "../assets/fonts/Sarpanch-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F3BADFDF8369436E988F0A56 /* Sarpanch-ExtraBold.ttf */ = {isa = PBXFileReference; name = "Sarpanch-ExtraBold.ttf"; path = "../assets/fonts/Sarpanch-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5726799224F14F25AA6E6B48 /* Sarpanch-Medium.ttf */ = {isa = PBXFileReference; name = "Sarpanch-Medium.ttf"; path = "../assets/fonts/Sarpanch-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2B675569C4834E14A762F799 /* Sarpanch-Regular.ttf */ = {isa = PBXFileReference; name = "Sarpanch-Regular.ttf"; path = "../assets/fonts/Sarpanch-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		02DBD75A9D6A42949242C2D6 /* Sarpanch-SemiBold.ttf */ = {isa = PBXFileReference; name = "Sarpanch-SemiBold.ttf"; path = "../assets/fonts/Sarpanch-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,6 +218,15 @@
 				02A8AF004B534645B38E10CF /* Octicons.ttf */,
 				66434A2C613A4B3B83E8D1AA /* SimpleLineIcons.ttf */,
 				C2071E6EC362471C8075F43B /* Zocial.ttf */,
+				900CEAD42F43448094361298 /* RadioCanada-VariableFont_wdth,wght.ttf */,
+				5F707F510B0B43EB9EB2A1B6 /* CassandraPersonalUseRegular-3BjG.ttf */,
+				82EE86E0DD71417EBEA0662E /* Monoton-Regular.ttf */,
+				FE06B89C2B0A4F8A97F3AB24 /* Sarpanch-Black.ttf */,
+				6CAE3D1379AE4CC4B24659DA /* Sarpanch-Bold.ttf */,
+				F3BADFDF8369436E988F0A56 /* Sarpanch-ExtraBold.ttf */,
+				5726799224F14F25AA6E6B48 /* Sarpanch-Medium.ttf */,
+				2B675569C4834E14A762F799 /* Sarpanch-Regular.ttf */,
+				02DBD75A9D6A42949242C2D6 /* Sarpanch-SemiBold.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -317,6 +344,15 @@
 				571382CE7C1C4C6B92834470 /* Octicons.ttf in Resources */,
 				428D50A0ADC24EB7B76F41B4 /* SimpleLineIcons.ttf in Resources */,
 				DACAC60AE1114DFEB19CEB4A /* Zocial.ttf in Resources */,
+				CDEDC4D4E3CB429F96FBA4AE /* RadioCanada-VariableFont_wdth,wght.ttf in Resources */,
+				4809697D22D941C9A5854A55 /* CassandraPersonalUseRegular-3BjG.ttf in Resources */,
+				2D1F9B2B6FE2487E9A1F0D13 /* Monoton-Regular.ttf in Resources */,
+				339118F342714E62B6958171 /* Sarpanch-Black.ttf in Resources */,
+				F2E957C7C1DC4AEB9E1B2BDE /* Sarpanch-Bold.ttf in Resources */,
+				B248BEB5BFF740B2BC858AA1 /* Sarpanch-ExtraBold.ttf in Resources */,
+				901D753F50A24DAC868A3028 /* Sarpanch-Medium.ttf in Resources */,
+				357124D4E2404F60A16661CA /* Sarpanch-Regular.ttf in Resources */,
+				5698984FBA96457D9C240B8C /* Sarpanch-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

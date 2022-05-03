@@ -69,6 +69,15 @@
 		<string>Octicons.ttf</string>
 		<string>SimpleLineIcons.ttf</string>
 		<string>Zocial.ttf</string>
+		<string>RadioCanada-VariableFont_wdth,wght.ttf</string>
+		<string>CassandraPersonalUseRegular-3BjG.ttf</string>
+		<string>Monoton-Regular.ttf</string>
+		<string>Sarpanch-Black.ttf</string>
+		<string>Sarpanch-Bold.ttf</string>
+		<string>Sarpanch-ExtraBold.ttf</string>
+		<string>Sarpanch-Medium.ttf</string>
+		<string>Sarpanch-Regular.ttf</string>
+		<string>Sarpanch-SemiBold.ttf</string>
 	</array>
 </dict>
 </plist>

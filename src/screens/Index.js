@@ -12,7 +12,7 @@ function Index({navigation}) {
       source={imgCount === 1 ? img : imgCount === 2 ? img1 : img2}
       resizeMode="contain"
       style={{justifyContent: 'flex-end', flex: 1, marginHorizontal: 15}}>
-      <Text style={{textAlign: 'center', marginBottom: 90, fontSize: 23,color:Colors.tried}}>
+      <Text style={{textAlign: 'center', marginBottom: 90,color:Colors.primary,fontFamily:"cursive",fontWeight:"700",fontSize:23}}>
         {imgCount === 1
           ? 'Easy to transfer files'
           : imgCount === 2
@@ -22,7 +22,7 @@ function Index({navigation}) {
       <Pressable
         onPress={() => navigation.navigate('Tab')}
         style={{position: 'absolute', top: 10, right: 10}}>
-        <Text style={{color: Colors.primary,fontSize:15}}>skip</Text>
+        <Text style={{color: Colors.primary,fontFamily:"cursive",fontWeight:"700",fontSize:18}}>Skip</Text>
       </Pressable>
       <Pressable
         onPress={() =>
@@ -33,11 +33,12 @@ function Index({navigation}) {
           bottom: 10,
           right: 10,
           backgroundColor: Colors.primary,
-          paddingHorizontal: 10,
-          paddingVertical: 5,
-          borderRadius: 10,
+          paddingHorizontal: 40,
+          paddingVertical: 15,
+          borderRadius: 40,
+          fontWeight: '600'
         }}>
-        <Text style={{color: 'white',fontSize:15}}>Next</Text>
+        <Text style={{color: 'white',fontSize:15,fontFamily:"cursive",fontWeight:"700"}}>Next</Text>
       </Pressable>
     </ImageBackground>
   );

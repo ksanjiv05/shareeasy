@@ -110,7 +110,7 @@ function Download({route, navigation}) {
           alignItems: 'center',
         }}
         onPress={handleDownload}>
-        <Text style={{color: Colors.secondry}}>Download</Text>
+        <Text style={{color: Colors.secondry,fontFamily:"cursive",fontWeight:"700",fontSize:20}}>Download</Text>
       </TouchableHighlight>
     </View>
   );

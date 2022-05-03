@@ -30,7 +30,7 @@ function FileShareComman({setData,data}) {
           
           onValueChange={newValue =>handleChange("isBurn",newValue)}
         />
-        <Text style={{color:Colors.primary}}>Burn after download</Text>
+        <Text style={{color:Colors.primary,fontFamily:"cursive",fontWeight:"700",fontSize:20}}>Burn after download</Text>
       </View>
 
       <View
@@ -47,7 +47,7 @@ function FileShareComman({setData,data}) {
           tintColors={{ true: Colors.primary, false: Colors.primary }}
           onValueChange={newValue =>handleChange("isProtected",newValue)}
         />
-        <Text style={{color:Colors.primary}}>Encrypted share</Text>
+        <Text style={{color:Colors.primary,fontFamily:"cursive",fontWeight:"700",fontSize:20}}>Encrypted share</Text>
       </View>
       <View  style={{display:data.isProtected?"flex":"none"}}>
         <Text style={{color:Colors.primary}}>Enter Encryption Key</Text>
@@ -55,6 +55,7 @@ function FileShareComman({setData,data}) {
           style={{
             borderWidth: 1,
             borderColor:Colors.primary,
+            color:Colors.primary,
             borderRadius: 5,
             marginVertical: 8,
             fontSize: 20,

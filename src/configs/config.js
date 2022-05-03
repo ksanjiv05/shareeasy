@@ -1,7 +1,7 @@
 export const Colors={
-    primary:"#640A7D",
-    secondry:"#FEFCFE",
-    tried:"#C67ADB"
+    primary:"#FF4331",
+    secondry:"red",
+    tried:"#d4d7d9"
 }
 
 

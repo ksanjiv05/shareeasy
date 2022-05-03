@@ -33,7 +33,7 @@ function FileShare({ navigation }) {
       });
       console.log('responce ', response);
       const sfile = response[0];
-      if (sfile.size < 250000) { 
+      if (sfile?.size < 250000) { 
         Alert("File Should be less then 250MB")
       }
       setFile(sfile)
@@ -81,7 +81,7 @@ function FileShare({ navigation }) {
   }
   return (
     <ScrollView>
-      <View style={{ flex: 1, marginHorizontal: 10 }}>
+      <View style={{ flex: 1, marginHorizontal: 30 }}>
         <View
           style={{
             display: 'flex',
@@ -90,8 +90,8 @@ function FileShare({ navigation }) {
           }}>
           <Image source={cloud} style={{ width: 150, height: 150 }} />
         </View>
+        <View>
         <FilePicker handleDocumentSelection={handleDocumentSelection} fileName={file?.name} />
-
         <FileShareComman setData={setData} data={data} />
         <TouchableHighlight
           style={{
@@ -105,9 +105,11 @@ function FileShare({ navigation }) {
           }}
           onPress={() => handleShare()}
         >
-          {loader?<Bubbles size={10} color="#FFF" />:<Text style={{ color: Colors.secondry }}>Share</Text>}
+          {loader?<Bubbles size={10} color="#FFF" />:<Text style={{ color: Colors.tried,fontFamily:"cursive",fontWeight:"700",fontSize:20 }}>Share</Text>}
           
         </TouchableHighlight>
+        </View>
+       
       </View>
     </ScrollView>
   );

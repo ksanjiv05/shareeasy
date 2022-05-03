@@ -2,7 +2,7 @@ import axios from 'axios';
 
 export const createPaste = async(body) => {
   try {
-    const responce =await  axios.post('http://134.255.216.211:3001/api/paste', body)
+    const responce =await  axios.post('https://shareeasy.in/api/paste', body)
     return responce;
 } catch (error) {
     console.log('unable to create paste', error);
@@ -23,7 +23,7 @@ export const createFile = async formData => {
     };
     console.log(formData);
 
-    const responce = await fetch('http://134.255.216.211:3001/api/file', options)
+    const responce = await fetch('https://shareeasy.in/api/file', options)
     
     return responce;
   } catch (error) {
@@ -34,7 +34,7 @@ export const createFile = async formData => {
 
 export const createShorterLink = async(body) => {
   try {
-    const responce =await  axios.post('http://134.255.216.211:3001/api/url', body)
+    const responce =await  axios.post('https://shareeasy.in/api/url', body)
     return responce;
   } catch (error) {
     console.log('unable to create paste', error);
@@ -55,7 +55,7 @@ export const checkFile=async(url)=>{
 
 export const tryDrycription=async(data)=>{
   try {
-    const responce =await  axios.post("http://134.255.216.211:3001/api/checkPassword",data)
+    const responce =await  axios.post("https://shareeasy.in/api/checkPassword",data)
     return responce;
   } catch (error) {
     console.log('unable to create paste', error);
@@ -65,7 +65,7 @@ export const tryDrycription=async(data)=>{
 
 export const getPaste=async(data)=>{
   try {
-    const responce =await  axios.post("http://134.255.216.211:3001/api/getpaste",data)
+    const responce =await  axios.post("https://shareeasy.in/api/getpaste",data)
     return responce;
   } catch (error) {
     console.log('unable to create paste', error);

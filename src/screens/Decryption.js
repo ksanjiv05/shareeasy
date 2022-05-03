@@ -62,7 +62,7 @@ function Decryption({ route, navigation }) {
           flex: 1,
           maxHeight: 80,
         }}>
-        <Text style={{ color: Colors.primary }}>Enter Your Decryption key</Text>
+        <Text style={{ color: Colors.primary,fontFamily:"cursive",fontWeight:"700",fontSize:20 }}>Enter Your Decryption key</Text>
         <TextInput
           onChangeText={text => setPassword(text)}
           style={{
@@ -73,6 +73,7 @@ function Decryption({ route, navigation }) {
             fontSize: 20,
             paddingHorizontal: 10,
             textAlignVertical: 'top',
+            color: Colors.primary,
           }}
         />
       </View>
@@ -88,7 +89,7 @@ function Decryption({ route, navigation }) {
           alignItems: 'center',
         }}
         onPress={handleDecryption}>
-        {loader ? <Bubbles size={10} color="#FFF" /> : <Text style={{ color: Colors.secondry }}>Decrypte</Text>}
+        {loader ? <Bubbles size={10} color="#FFF" /> : <Text style={{ color: Colors.secondry,fontFamily:"cursive",fontWeight:"700",fontSize:20 }}>Decrypte</Text>}
       </TouchableHighlight>
     </View>
 

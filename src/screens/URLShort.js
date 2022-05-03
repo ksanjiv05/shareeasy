@@ -35,9 +35,9 @@ function URLShort({navigation}) {
     }
   }
   return (
-    <ScrollView>
+    // <ScrollView>
 
-    <View style={{flex: 1, marginHorizontal: 10}}>
+    <View style={{flex: 1, marginHorizontal: 30,justifyContent:"center"}}>
       <View
         style={{
           display: 'flex',
@@ -47,7 +47,7 @@ function URLShort({navigation}) {
         <Image source={cloud} style={{width: 150, height: 150}} />
       </View>
       <View >
-        <Text style={{color: Colors.primary}}>Enter Your Note</Text>
+        <Text style={{color: Colors.primary,fontFamily:"cursive",fontWeight:"700",fontSize:20}}>Enter any link</Text>
         <TextInput
          
          onChangeText={text=>setData(p=>({...p,textData:text}))}
@@ -58,8 +58,8 @@ function URLShort({navigation}) {
             marginVertical: 8,
             fontSize: 20,
             paddingHorizontal: 10,
-            textAlignVertical:"top"
-           
+            textAlignVertical:"top",
+            color:Colors.primary,
             
           }}
         />
@@ -69,7 +69,7 @@ function URLShort({navigation}) {
       <TouchableHighlight
         style={{
           flex: 1,
-          minHeight: 50,
+          maxHeight: 50,
           backgroundColor: Colors.primary,
           borderRadius: 5,
           marginVertical: 8,
@@ -78,10 +78,10 @@ function URLShort({navigation}) {
         }}
         onPress={()=>handleShare()}
         >
-        <Text style={{color: Colors.secondry}}>Share</Text>
+        <Text style={{color: Colors.tried,fontFamily:"cursive",fontWeight:"700",fontSize:20}}>Share</Text>
       </TouchableHighlight>
     </View>
-  </ScrollView>
+  // </ScrollView>
   )
 }
 

@@ -49,7 +49,7 @@ function PasteShare({ navigation }) {
   }
   return (
     <ScrollView>
-      <View style={{ flex: 1, marginHorizontal: 10 }}>
+      <View style={{ flex: 1, marginHorizontal: 30}}>
         <View
           style={{
             display: 'flex',
@@ -58,8 +58,8 @@ function PasteShare({ navigation }) {
           }}>
           <Image source={cloud} style={{ width: 150, height: 150 }} />
         </View>
-        <View>
-          <Text style={{ color: Colors.primary }}>Enter Your Note</Text>
+        <View style={{flex:1}} >
+          <Text style={{ color: Colors.primary,fontFamily:"cursive",fontWeight:"700",fontSize:20 }}>Enter Your Note</Text>
           <TextInput
             editable
             maxLength={40}
@@ -67,6 +67,7 @@ function PasteShare({ navigation }) {
             style={{
               borderWidth: 1,
               borderColor: Colors.primary,
+              color:Colors.primary,
               borderRadius: 5,
               marginVertical: 8,
               fontSize: 20,
@@ -91,7 +92,7 @@ function PasteShare({ navigation }) {
           }}
           onPress={() => handleShare()}
         >
-          {loader ? <Bubbles size={10} color="#FFF" /> : <Text style={{ color: Colors.secondry }}>Share</Text>}
+          {loader ? <Bubbles size={10} color="#FFF" /> : <Text style={{ color: Colors.tried,fontFamily:"cursive",fontWeight:"700",fontSize:20 }}>Share</Text>}
 
         </TouchableHighlight>
       </View>
